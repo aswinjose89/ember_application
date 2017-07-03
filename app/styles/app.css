@@ -1,0 +1,50 @@
+/*@import './uniq-component';*/
+
+.input-list {
+    padding: 12px 20px 9px 20px; 
+    }
+.input-list__title {
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 2px; }
+caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
+table {    
+    border-collapse: collapse;   }
+td {   
+    border: solid #e74f3b;              /* added border color inside the border attribute */
+
+    text-align: center;    
+
+    width: 10em;
+
+    border-width: 0.2em;                /* added border width as a separate attribute */
+
+    padding: 1em;           }
+
+th {   
+
+border: 0.2em solid;                /* added border width inside the border attribute */
+
+text-align: center;
+
+width: 10em;
+
+padding: 1em;
+
+border-color: #329bd7;      }       /* added border color as a separate attribute */
+tr {   
+
+height: 1em;    }
